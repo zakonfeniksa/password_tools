@@ -1,0 +1,19 @@
+{
+  "name": "password_tools",
+  "version": "1.0.0",
+  "description": "Generate similar passwords",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakonfeniksa/password_tools.git"
+  },
+  "keywords": [
+    "password"
+  ],
+  "author": "zakonfeniksa (https://github.com/zakonfeniksa)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/zakonfeniksa/password_tools/issues"
+  },
+  "homepage": "https://github.com/zakonfeniksa/password_tools"
+}
