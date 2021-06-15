@@ -16,29 +16,25 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+const textCompare = ( text, otherText ) => {
 
-const common = require('./common');
-const leet = require('./leet');
-const nanb = require('./nanb');
-const pnapnb = require('./pnapnb');
-const punctuation = require('./punctuation');
-const reverse = require('./reverse');
-const spaces = require('./spaces');
-const swap = require('./swap');
-const years = require('./years');
-const textCompare = require('./compare')
+    while (text.length < otherText.length) {
+        text += '0';
+    }
 
-const allFunctions = {
-    common,
-    leet,
-    nanb,
-    pnapnb,
-    punctuation,
-    reverse,
-    spaces,
-    swap,
-    years,
-    textCompare
-};
+    while (otherText.length < text.length) {
+        otherText += '0';
+    }
 
-module.exports = allFunctions;
+    let matchesLetters = 0;
+
+    for (let i = 0; i < text.length; i++) {
+        if (text[i] === otherText[i]) matchesLetters++;
+        else if (text[i] === otherText[i].toLowerCase()) matchesLetters += 0.5;
+        else if (text[i] === otherText[i].toUpperCase()) matchesLetters += 0.5;
+    }
+
+    return matchesLetters / text.length;
+}
+
+module.exports = textCompare;
