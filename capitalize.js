@@ -16,33 +16,19 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+const capitalize = text => {
 
-const common = require('./common');
-const leet = require('./leet');
-const nanb = require('./nanb');
-const pnapnb = require('./pnapnb');
-const punctuation = require('./punctuation');
-const reverse = require('./reverse');
-const spaces = require('./spaces');
-const swap = require('./swap');
-const years = require('./years');
-const textCompare = require('./compare');
-const permutate = require('./permutate');
-const capitalize = require('./capitalize');
+    text = text.split('');
 
-const allFunctions = {
-    common,
-    leet,
-    nanb,
-    pnapnb,
-    punctuation,
-    reverse,
-    spaces,
-    swap,
-    years,
-    textCompare,
-    permutate,
-    capitalize
-};
+    text[0] = text[0].toUpperCase();
 
-module.exports = allFunctions;
+    for (let i = 1; i < text.length; i++) {
+        text[i] = text[i].toLowerCase();
+    }
+
+    text = text.join('');
+
+    return text;
+}
+
+module.exports = capitalize;
