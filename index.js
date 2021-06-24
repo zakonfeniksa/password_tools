@@ -26,7 +26,8 @@ const reverse = require('./reverse');
 const spaces = require('./spaces');
 const swap = require('./swap');
 const years = require('./years');
-const textCompare = require('./compare')
+const textCompare = require('./compare');
+const permutate = require('./permutate');
 
 const allFunctions = {
     common,
@@ -38,7 +39,8 @@ const allFunctions = {
     spaces,
     swap,
     years,
-    textCompare
+    textCompare,
+    permutate
 };
 
 module.exports = allFunctions;
