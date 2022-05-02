@@ -1,6 +1,6 @@
 /*
 <password_tools - Generate similar passwords>
-    Copyright (C) <2021>  <zakonfeniksa>
+    Copyright (C) <2021-2022>  <zakonfeniksa>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
