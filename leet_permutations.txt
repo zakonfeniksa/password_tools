@@ -1,0 +1,619 @@
+<password_tools - Generate similar passwords>
+    Copyright (C) <2021-2022>  <zakonfeniksa>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
+
+LEET PERMUTATIONS
+
+PERMUTATION 0:
+a -> 4
+b -> 8
+c -> [
+d -> )
+e -> 3
+f -> |"
+g -> 6
+h -> #
+i -> 1
+j -> _|
+k -> |<
+l -> 1
+m -> ^^
+n -> ^/
+o -> 0
+p -> |*
+q -> (_,)
+r -> |`
+s -> 5
+t -> 7
+u -> (_)
+v -> |/
+w -> '//
+x -> ><
+y -> j
+z -> 2
+
+PERMUTATION 1:
+a -> @
+b -> 13
+c -> ¢
+d -> |)
+e -> &
+f -> |=
+g -> &
+h -> /-/
+i -> !
+j -> _/
+k -> |{
+l -> £
+n -> ^
+o -> ()
+q -> ()_
+r -> |~
+s -> $
+t -> +
+u -> |_|
+x -> }{
+y -> 4
+z -> 7_
+
+PERMUTATION 2:
+a -> 4
+
+PERMUTATION 3:
+a -> @
+
+PERMUTATION 4:
+a -> ^
+
+PERMUTATION 5:
+a -> aye
+
+PERMUTATION 6:
+b -> 8
+
+PERMUTATION 7:
+b -> 13
+
+PERMUTATION 8:
+b -> |3
+
+PERMUTATION 9:
+b -> P>
+
+PERMUTATION 10:
+b -> |:
+
+PERMUTATION 11:
+b -> !3
+
+PERMUTATION 12:
+b -> (3
+
+PERMUTATION 13:
+b -> /3
+
+PERMUTATION 14:
+b -> )3
+
+PERMUTATION 15:
+b -> [-]
+
+PERMUTATION 16:
+c -> [
+
+PERMUTATION 17:
+c -> <
+
+PERMUTATION 18:
+c -> (
+
+PERMUTATION 19:
+c -> ©
+
+PERMUTATION 20:
+d -> )
+
+PERMUTATION 21:
+d -> |)
+
+PERMUTATION 22:
+d -> (|
+
+PERMUTATION 23:
+d -> |o
+
+PERMUTATION 24:
+d -> [)
+
+PERMUTATION 25:
+d -> I>
+
+PERMUTATION 26:
+d -> |>
+
+PERMUTATION 27:
+d -> ?
+
+PERMUTATION 28:
+d -> T)
+
+PERMUTATION 29:
+d -> I7
+
+PERMUTATION 30:
+d -> cl
+
+PERMUTATION 31:
+d -> dee
+
+PERMUTATION 32:
+e -> 3
+
+PERMUTATION 33:
+e -> &
+
+PERMUTATION 34:
+e -> £
+
+PERMUTATION 35:
+e -> €
+
+PERMUTATION 36:
+e -> {
+
+PERMUTATION 37:
+e -> [-
+
+PERMUTATION 38:
+e -> |=-
+
+PERMUTATION 39:
+f -> |"
+
+PERMUTATION 40:
+f -> |=
+
+PERMUTATION 41:
+f -> ƒ
+
+PERMUTATION 42:
+f -> |#
+
+PERMUTATION 43:
+f -> ph
+
+PERMUTATION 44:
+f -> /=
+
+PERMUTATION 45:
+f -> v
+
+PERMUTATION 46:
+g -> 6
+
+PERMUTATION 47:
+g -> &
+
+PERMUTATION 48:
+g -> (_+
+
+PERMUTATION 49:
+g -> 9
+
+PERMUTATION 50:
+g -> C-
+
+PERMUTATION 51:
+g -> gee
+
+PERMUTATION 52:
+g -> (γ,
+
+PERMUTATION 53:
+g -> [,
+
+PERMUTATION 54:
+g -> {,
+
+PERMUTATION 55:
+g -> <-
+
+PERMUTATION 56:
+g -> (.
+
+PERMUTATION 57:
+h -> #
+
+PERMUTATION 58:
+h -> /-/
+
+PERMUTATION 59:
+h -> [-]
+
+PERMUTATION 60:
+h -> ]-[
+
+PERMUTATION 61:
+h -> )-(
+
+PERMUTATION 62:
+h -> (-)
+
+PERMUTATION 63:
+h -> :-:
+
+PERMUTATION 64:
+h -> |~|
+
+PERMUTATION 65:
+h -> |-|
+
+PERMUTATION 66:
+h -> ]~[
+
+PERMUTATION 67:
+h -> }{
+
+PERMUTATION 68:
+h -> 1-1
+
+PERMUTATION 69:
+h -> }-{
+
+PERMUTATION 70:
+i -> 1
+
+PERMUTATION 71:
+i -> !
+
+PERMUTATION 72:
+
+PERMUTATION 73:
+i -> |
+
+PERMUTATION 74:
+i -> eye
+
+PERMUTATION 75:
+i -> 3y3
+
+PERMUTATION 76:
+i -> ][
+
+PERMUTATION 77:
+i -> ]
+
+PERMUTATION 78:
+j -> _|
+
+PERMUTATION 79:
+j -> _/
+
+PERMUTATION 80:
+j -> ¿
+
+PERMUTATION 81:
+j -> </
+
+PERMUTATION 82:
+j -> (/ </
+
+PERMUTATION 83:
+j -> _[
+
+PERMUTATION 84:
+k -> X
+
+PERMUTATION 85:
+k -> |<
+
+PERMUTATION 86:
+k -> |{
+
+PERMUTATION 87:
+k -> ]{
+
+PERMUTATION 88:
+k -> |X
+
+PERMUTATION 89:
+l -> 1
+
+PERMUTATION 90:
+l -> £
+
+PERMUTATION 91:
+l -> 7
+
+PERMUTATION 92:
+l -> 1_
+
+PERMUTATION 93:
+l -> |
+
+PERMUTATION 94:
+l -> |_
+
+PERMUTATION 95:
+l -> el
+
+PERMUTATION 96:
+l -> [_,
+
+PERMUTATION 97:
+m -> |v|
+
+PERMUTATION 98:
+m -> [V]
+
+PERMUTATION 99:
+m -> (Y)
+
+PERMUTATION 100:
+m -> {V}
+
+PERMUTATION 101:
+m -> em
+
+PERMUTATION 102:
+m -> AA
+
+PERMUTATION 103:
+m -> (u)
+
+PERMUTATION 104:
+m -> (V)
+
+PERMUTATION 105:
+m -> ^^
+
+PERMUTATION 106:
+n -> ^/
+
+PERMUTATION 107:
+n -> // []
+
+PERMUTATION 108:
+n -> /V
+
+PERMUTATION 109:
+n -> ₪
+
+PERMUTATION 110:
+n -> ^
+
+PERMUTATION 111:
+o -> 0
+
+PERMUTATION 112:
+o -> ()
+
+PERMUTATION 113:
+o -> oh
+
+PERMUTATION 114:
+o -> []
+
+PERMUTATION 115:
+o -> p
+
+PERMUTATION 116:
+p -> |*
+
+PERMUTATION 117:
+p -> |o
+
+PERMUTATION 118:
+p -> |º
+
+PERMUTATION 119:
+p -> ?
+
+PERMUTATION 120:
+p -> |^(o)
+
+PERMUTATION 121:
+p -> |>
+
+PERMUTATION 122:
+p -> 9
+
+PERMUTATION 123:
+p -> []D
+
+PERMUTATION 124:
+p -> |̊
+
+PERMUTATION 125:
+p -> |7
+
+PERMUTATION 126:
+q -> (_,)
+
+PERMUTATION 127:
+q -> ()_
+
+PERMUTATION 128:
+q -> 0_
+
+PERMUTATION 129:
+q -> <|
+
+PERMUTATION 130:
+q -> 0,
+
+PERMUTATION 131:
+r -> |`
+
+PERMUTATION 132:
+r -> |~
+
+PERMUTATION 133:
+r -> |?
+
+PERMUTATION 134:
+r -> /2
+
+PERMUTATION 135:
+r -> |^
+
+PERMUTATION 136:
+r -> lz
+
+PERMUTATION 137:
+r -> |9
+
+PERMUTATION 138:
+r -> 2
+
+PERMUTATION 139:
+r -> [z
+
+PERMUTATION 140:
+r -> Я
+
+PERMUTATION 141:
+r -> .-
+
+PERMUTATION 142:
+r -> |2
+
+PERMUTATION 143:
+r -> ſ
+
+PERMUTATION 144:
+s -> 5
+
+PERMUTATION 145:
+s -> $
+
+PERMUTATION 146:
+s -> z
+
+PERMUTATION 147:
+s -> §
+
+PERMUTATION 148:
+s -> ehs
+
+PERMUTATION 149:
+s -> es
+
+PERMUTATION 150:
+t -> 7
+
+PERMUTATION 151:
+t -> +
+
+PERMUTATION 152:
+t -> -|-
+
+PERMUTATION 153:
+t -> 1
+
+PERMUTATION 154:
+t -> ']['
+
+PERMUTATION 155:
+t -> †
+
+PERMUTATION 156:
+u -> (_)
+
+PERMUTATION 157:
+u -> |_|
+
+PERMUTATION 158:
+u -> v
+
+PERMUTATION 159:
+u -> L|
+
+PERMUTATION 160:
+u -> µ
+
+PERMUTATION 161:
+w -> vv
+
+PERMUTATION 162:
+w -> '//
+
+PERMUTATION 163:
+w -> dubya
+
+PERMUTATION 164:
+w -> (n)
+
+PERMUTATION 165:
+w -> Ш
+
+PERMUTATION 166:
+w -> uu
+
+PERMUTATION 167:
+x -> ><
+
+PERMUTATION 168:
+x -> Ж
+
+PERMUTATION 169:
+x -> }{
+
+PERMUTATION 170:
+x -> ecks
+
+PERMUTATION 171:
+x -> ×
+
+PERMUTATION 172:
+x -> χ
+
+PERMUTATION 173:
+x -> )(
+
+PERMUTATION 174:
+x -> ][
+
+PERMUTATION 175:
+y -> j
+
+PERMUTATION 176:
+y -> `/
+
+PERMUTATION 177:
+y -> Ч
+
+PERMUTATION 178:
+y -> 7
+
+PERMUTATION 179:
+z -> 2
+
+PERMUTATION 180:
+z -> 7_
+
+PERMUTATION 181:
+z -> -/_
+
+PERMUTATION 182:
+z -> %
+
+PERMUTATION 183:
+z -> >_
+
+PERMUTATION 184:
+z -> s

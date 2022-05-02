@@ -1,6 +1,6 @@
 {
   "name": "password_tools",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Generate similar passwords",
   "main": "index.js",
   "repository": {
